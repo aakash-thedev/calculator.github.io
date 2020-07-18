@@ -163,3 +163,13 @@ td:active{
 .operations:active{
     background-color: #145f5b;
 }
+
+@media screen and (max-width: 870px){
+    td{
+        box-sizing: border-box;
+        height: 80px;
+        width: 120px;
+        border: 1px solid rgb(39, 35, 35);
+        cursor: pointer;
+    }
+}
