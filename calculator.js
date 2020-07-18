@@ -22,15 +22,15 @@ AC.addEventListener('click', clear);
 
 function solve(){
     var result = eval(inputString);
-    userScreen.innerText = result;
     inputString = result;
-    console.log(inputString);
+    userScreen.innerHTML = inputString;
+    inputString = userScreen.innerText;
 }
 
-function deleteText(){
-    inputString = inputString.slice(0, inputString.length-1);
+function deleteText(event){
+    inputString = inputString.substr(0, inputString.length-1);
     console.log(inputString);
-    userScreen.innerText = inputString;
+    userScreen.innerHTML = inputString;
 }
 
 function reverseSign(){
