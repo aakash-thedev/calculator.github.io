@@ -169,12 +169,11 @@ td:active{
 	#calculator-app{
 	    display: inline-block;
 	    text-align: center;
-	    margin-top:2.5%;
 	    color: white;
 	    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 	    font-size: larger;
 	    width: 610px;
-/* 	    height: 90%; */
+	    height: 90%;
 	    /* background-color: red; */
 	}
 }
