@@ -1,5 +1,8 @@
 'use strict';
 
+var name = prompt('Whats your name ?');
+alert('Hi'+ " " + name + ',' + 'The app is under construction :). Give some valuable feedback.')
+
 // Calculator Functions
 
 var app = document.getElementById('app-table');
