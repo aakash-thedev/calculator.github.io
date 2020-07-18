@@ -174,17 +174,7 @@ td:active{
 	    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 	    font-size: larger;
 	    width: 610px;
-	    height: 500px;
+	    height: 600px;
 	    /* background-color: red; */
 	}
 }
-
-/* @media screen and (max-width: 570px){
-    td{
-        box-sizing: border-box;
-        height: 50px;
-        width: 90px;
-        border: 1px solid rgb(39, 35, 35);
-        cursor: pointer;
-    }
-} */
