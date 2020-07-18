@@ -164,7 +164,7 @@ td:active{
     background-color: #145f5b;
 }
 
-@media screen and (max-width: 870px){
+@media screen and (max-width: 570px){
     
 	td{
 	    box-sizing: border-box;
