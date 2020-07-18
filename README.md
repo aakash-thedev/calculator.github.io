@@ -1,1 +1,2 @@
-# calculator.github.io
+Calculator built using simple HTML , CSS and Javascript.
+No framework used.
