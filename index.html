@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<link rel="stylesheet" type="text/css" href="calculator.css">
+	<meta name="viewport" content="width=device-width initial-scale:1">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
+</head>
+<body>
+
+	<main id="main">
+
+		<section id="theme-toggle">
+			<h1 id="heading1">People's Best Friend - CALCULATOR</h1>
+	
+				<p class="para">In 1642, the first true “calculator” was invented:
+					one that performed calculations through a clockwork-type of mechanism.
+					The Pascal calculator, invented by French inventor and mathematician Blaise Pascal, was lauded for
+					attempting arithmetic calculations previously thought impossible. But unfortunately, they were
+					difficult to produce and very few were ever made. The mechanical calculator then invented by
+					Thomas de Colmar in the mid-nineteenth century, and subsequent others, were easier to produce,
+					but extremely large and bulky–not at all the pocket calculators we know today.</p>
+	
+	
+				<h2 id="heading2">About this calculator</h1>
+	
+					<p class="para">This calculator is built using HTML5, CSS3 and Javascript.
+						some new functions will be added on this calculator on a regular basis.
+					</p>
+	
+			<h4 id="heading4"> Choose your theme </h4>
+
+			<span class="theme-caption">Dark</span>
+			
+			<label class="toggle-switch">
+				<input type="checkbox">
+				<span class="slider"></span>
+			</label>
+
+			<span class="theme-caption">Light</span>
+
+		</section>
+	
+		<section id="calculator-app">
+	
+			<table id="app-table">
+				<!-- for creating a row inside a table ! <tr> is used-->
+				<tr class="row">
+					<td id="caption" colspan="4">Calculator</td>
+				</tr>
+		
+				<tr class="row">
+					<td id="user-screen" colspan="4"></td>
+				</tr>
+	
+				<tr class="row">
+					<td id="clear"> AC </td>
+					<td id="reverse-sign" onclick="reverseSign()"> +/-</td>
+					<td id="percentage" onclick="displayText('%')"> % </td>
+					<td id="delete" class="operations" onclick="deleteText()"> DEL </td>
+				</tr>
+		
+				<tr class="row">
+					<td id="left-bracket" onclick="displayText('(')"> ( </td>
+					<td id="right-bracket" onclick="displayText(')')"> ) </td>
+					<td id="percentage" onclick="displayText('Math.sqrt(')"> sqrt </td>
+					<td id="power" class="operations" onclick="displayText('**')"> <strong> x<sup>y</sup> </strong> </td>
+				</tr>
+	
+				<tr class="row">
+					<td id="7" onclick="displayText('7')"> 7 </td>
+					<td id="8" onclick="displayText('8')"> 8 </td>
+					<td id="9" onclick="displayText('9')"> 9 </td>
+					<td id="divide" class="operations" onclick="displayText('/')"> <i class="fas fa-divide"></i> </td>
+				</tr>
+	
+				<tr class="row">
+					<td id="4" onclick="displayText('4')"> 4 </td>
+					<td id="5" onclick="displayText('5')"> 5 </td>
+					<td id="6" onclick="displayText('6')"> 6 </td>
+					<td id="multiply" class="operations" onclick="displayText('*')"> <i class="fas fa-times"></i> </td>
+				</tr>
+	
+				<tr class="row">
+					<td id="1" onclick="displayText('1')"> 1 </td>
+					<td id="2" onclick="displayText('2')"> 2 </td>
+					<td id="3" onclick="displayText('3')"> 3 </td>
+					<td id="subtract" class="operations" onclick="displayText('-')"> <i class="fas fa-minus"></i> </td>
+				</tr>
+	
+				<tr class="row">
+					<td id="0" onclick="displayText('0')"> 0 </td>
+					<td id="dot" onclick="displayText('.')"> . </td>
+					<td id="equals" class="operations" onclick="solve()"> <i class="fas fa-equals"></i> </td>
+					<td id="add" class="operations" onclick="displayText('+')"> <i class="fas fa-plus"></i> </td>
+				</tr>
+		
+			</table>
+	
+		</section>
+
+	</main>
+
+<script type="text/javascript" src="calculator.js"></script>
+</body>
+</html>
