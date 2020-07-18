@@ -169,7 +169,7 @@ td:active{
 	#calculator-app{
 	    display: inline-block;
 	    text-align: center;
-/* 	    margin-top:2.5%; */
+	    margin-top:2.5%;
 	    color: white;
 	    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 	    font-size: larger;
