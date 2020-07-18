@@ -8,6 +8,7 @@ body{
 #main{
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap-reverse;
     align-items: center;
 }
 
@@ -20,6 +21,17 @@ body{
     width: 30%;
     height: 770px;
     vertical-align: top;
+}
+
+@media screen and (max-width: 870px){
+    #theme-toggle{
+        display: inline-block;
+        box-sizing: border-box;
+        padding-top: 8%;
+        width: 100%;
+        height: 770px;
+        vertical-align: top;
+    }
 }
 
 #heading1{
